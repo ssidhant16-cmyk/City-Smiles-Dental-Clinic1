@@ -1,7 +1,7 @@
 [build]
-  base = "frontend"
+  base = "city-smiles-dental/city-smiles-dental/frontend"
   command = "npm run build"
-  publish = "../dist"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
